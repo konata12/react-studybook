@@ -26,6 +26,10 @@ class Clock extends React.Component {
     }
     
     render() {
+        if (!this.props.render) {
+            return null;
+        }
+        
         return (
             <div>
                 <h1>Привіт, світе!</h1>

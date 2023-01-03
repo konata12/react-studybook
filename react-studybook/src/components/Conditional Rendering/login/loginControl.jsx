@@ -20,6 +20,10 @@ class LoginControl extends React.Component {
     }
   
     render() {
+        if (!this.props.render) {
+            return null;
+        }
+
         const isLoggedIn = this.state.isLoggedIn;
         let button;
         if (isLoggedIn) {
