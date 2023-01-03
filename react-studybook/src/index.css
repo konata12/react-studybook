@@ -1,0 +1,7 @@
+.app > div {
+    margin-bottom: 30px;
+    outline: 1px solid black;
+}
+.app {
+    border: 1px solid black;
+}

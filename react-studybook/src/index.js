@@ -1,18 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Clock from './components/clock';
-import Tick from './components/tick';
+
+import Clock from './components/State and Lifecycle/clock';
+import Toggle from './components/Handling events/toggle';
+import LoginControl from './components/Conditional Rendering/login/loginControl';
+import Page from './components/Conditional Rendering/page';
 
 function App(props) {
     return (
-        <Clock />
+        <div className='app'>
+            <Clock />
+            <Toggle />
+            <LoginControl />
+            <Page />
+        </div>
     );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />)
-
-// function tick() {
-//     root.render(<App />);
-// }
-// setInterval(tick, 1000);
