@@ -7,9 +7,10 @@ import LoginControl from './components/Conditional Rendering/login/loginControl'
 import Page from './components/Conditional Rendering/page';
 import NumberList from './components/Lists and Keys/List/numberList';
 import Blog from './components/Lists and Keys/Blog/blog';
+import NameForm from './components/Forms/nameForm';
 
 function App(props) {
-    const render = true;
+    const render = 0;
     return (
         <div className='app'>
             <Clock render={render}/>
@@ -18,6 +19,7 @@ function App(props) {
             <Page render={render}/>
             <NumberList render={render}/>
             <Blog render={render}/>
+            <NameForm />
         </div>
     );
 }
