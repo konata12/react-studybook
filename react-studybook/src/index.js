@@ -7,7 +7,10 @@ import LoginControl from './components/Conditional Rendering/login/loginControl'
 import Page from './components/Conditional Rendering/page';
 import NumberList from './components/Lists and Keys/List/numberList';
 import Blog from './components/Lists and Keys/Blog/blog';
-import NameForm from './components/Forms/nameForm';
+import NameForm from './components/Forms/Input/nameForm';
+import EssayForm from './components/Forms/Textarea/essayForm';
+import FlavorForm from './components/Forms/Select/flavorForm';
+import Reservation from './components/Forms/Handling Multiple Inputs/reservation';
 
 function App(props) {
     const render = 0;
@@ -19,7 +22,10 @@ function App(props) {
             <Page render={render}/>
             <NumberList render={render}/>
             <Blog render={render}/>
-            <NameForm />
+            <NameForm render={render}/>
+            <EssayForm render={render}/>
+            <FlavorForm render={render}/>
+            <Reservation />
         </div>
     );
 }

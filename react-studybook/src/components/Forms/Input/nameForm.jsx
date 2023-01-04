@@ -21,6 +21,10 @@ class NameForm extends React.Component {
     }
   
     render() {
+        if (!this.props.render) {
+            return null;
+        }
+        
         return (
             <form onSubmit={this.handleSubmit}>
                 <label>
