@@ -25,9 +25,9 @@ class Reservation extends React.Component {
     }
 
     render() {
-        // if (!this.props.render) {
-        //     return null;
-        // }
+        if (!this.props.render) {
+            return null;
+        }
 
         return (
             <form>

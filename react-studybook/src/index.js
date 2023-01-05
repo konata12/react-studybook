@@ -11,6 +11,7 @@ import NameForm from './components/Forms/Input/nameForm';
 import EssayForm from './components/Forms/Textarea/essayForm';
 import FlavorForm from './components/Forms/Select/flavorForm';
 import Reservation from './components/Forms/Handling Multiple Inputs/reservation';
+import Calculator from './components/Lifting State Up/Water Calculator/calculator';
 
 function App(props) {
     const render = 0;
@@ -25,7 +26,8 @@ function App(props) {
             <NameForm render={render}/>
             <EssayForm render={render}/>
             <FlavorForm render={render}/>
-            <Reservation />
+            <Reservation render={render}/>
+            <Calculator />
         </div>
     );
 }
