@@ -1,0 +1,6 @@
+.productTable {
+    width: min-content;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: blueviolet;
+}

@@ -12,6 +12,7 @@ import EssayForm from './components/Forms/Textarea/essayForm';
 import FlavorForm from './components/Forms/Select/flavorForm';
 import Reservation from './components/Forms/Handling Multiple Inputs/reservation';
 import Calculator from './components/Lifting State Up/Water Calculator/calculator';
+import FilterableProductTable from './components/Searchable Product Data Table/filterableProductTable';
 
 function App(props) {
     const render = 0;
@@ -27,7 +28,8 @@ function App(props) {
             <EssayForm render={render}/>
             <FlavorForm render={render}/>
             <Reservation render={render}/>
-            <Calculator />
+            <Calculator render={render}/>
+            <FilterableProductTable />
         </div>
     );
 }

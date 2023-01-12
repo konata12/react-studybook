@@ -1,0 +1,11 @@
+.productRow {
+    display: flex;
+    width: 100%;
+}
+.productRowActive {
+    color: red;
+}
+.rowName {
+    display: inline-block;
+    width: 80px;
+}

@@ -1,0 +1,17 @@
+.productTable {
+    background-color: aqua;
+}
+.productTableName {
+    display: inline-block;
+    width: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.productTablePrice {
+    font-size: 18px;
+    font-weight: bold;
+}
+.productList {
+    margin: 0;
+    padding: 0;
+}

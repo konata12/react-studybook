@@ -12,9 +12,6 @@ class Reservation extends React.Component {
     }
 
     handleInputChange(event) {
-        console.dir(event)
-        console.dir(event.target.type)
-        console.dir(event.target.name)
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
